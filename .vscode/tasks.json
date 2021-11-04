@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [ {
+        "label": "Avvia questo cazzo di programma",
+        "windows":{
+            "command":"./Run.bat"
+        },
+        "group": {
+            "kind":"build",
+            "isDefault":true,
+         
+        }
+    }
+    ]
+}

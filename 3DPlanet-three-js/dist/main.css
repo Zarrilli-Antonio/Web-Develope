@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Arial';
+    background: black;
+    overflow-y:hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: exclusion;
+}
+
+.container{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+    place-content: center;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 70vh;
+    font-size: 2rem;
+    color: white;
+    align-content: left;
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
